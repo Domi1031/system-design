@@ -6,8 +6,7 @@ public class Student {
     //commit added at 9:27AM
   private String sId;
   private String sname;  
-  private String phoneNo;
-          
+
     public Student(String sId, String sname) {
         this.sId = sId;
         this.sname = sname;
