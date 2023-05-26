@@ -4,12 +4,13 @@ package arraysdemo;
 
 public class Student {
     //commit added at 9:27AM
+    //comment added for modifications
   private String sId;
-  private String sname;  
+  private String sName;  
 
     public Student(String sId, String sname) {
         this.sId = sId;
-        this.sname = sname;
+        this.sName = sName;
     }
 
   
@@ -22,11 +23,11 @@ public class Student {
     }
 
     public String getSname() {
-        return sname;
+        return sName;
     }
 
     public void setSname(String sname) {
-        this.sname = sname;
+        this.sName = sName;
     }
   
   
